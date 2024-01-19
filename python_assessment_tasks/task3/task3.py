@@ -74,3 +74,6 @@ expiry = product1.is_expired()
 # False means not expired
 # True means expired product
 print("Product expiry:", expiry)
+print("#######################")
+print("By: Meqdad A. Darwish")
+print("Computer Vision Workshop by GSG")
