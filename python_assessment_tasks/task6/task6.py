@@ -13,9 +13,9 @@ x + 2y + 3z = 10
 ########### Solution ###########
 import numpy as np
 
-A = np.array([  [1, 2, 3],
-                [0, 1, 4],
-                [5, 6, 0]])
+A = np.array([[1, 2, 3],
+              [0, 1, 4],
+              [5, 6, 0]])
 
 b = np.array([8, 9, 10])
 
@@ -29,13 +29,13 @@ def has_inverse(m):
         return False
     return True
 
-def solve_vector_x(A, b):
+def solve_equation(A, b):
     if has_inverse(A):
         x = np.linalg.solve(A, b)
         return x
 
-vec_x = solve_vector_x(A, b)
-print(vec_x)
+vector_x = solve_equation(A, b)
+print("vector_x =", vector_x)
 
 
 print("\n#######################")
@@ -48,6 +48,18 @@ x + 2y + 3z = 10
 2x + 5y + 3z = 15
 2x + 8z = 20
 """
+
+# (Coefficient)
+A = np.array([[1, 2, 3],
+              [2, 5, 3],
+              [2, 0, 8]])
+
+
+b = np.array([10, 15, 20])
+
+result = solve_equation(A, b)
+
+print("Result =", result)
 
 print("\n#######################")
 
