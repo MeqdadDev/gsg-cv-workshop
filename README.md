@@ -1,2 +1,6 @@
-# gsg-cv-workshop
+# Computer Vision Workshop - Gaza Sky Geeks
+
 A repository for Computer Vision Workshop with Gaza Sky Geeks.
+
+### [Technical Assessment: Python Proficiency](python_assessment_tasks/)
+My solutions for the tasks for technical assessment in Python proficiency in the Computer Vision Workshop.
