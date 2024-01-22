@@ -6,4 +6,4 @@ Tasks for technical assessment in Python proficiency in the Computer Vision Work
 #### [Task 3: (Object-Oriented Programming - OOP)](task3/README.md)
 #### [Task 4: (Object-Oriented Programming - OOP)](task4/README.md)
 #### [Task 5: (Linear Algebra)](task5/README.md)
-
+#### [Task 6: (Linear Algebra)](task6/README.md)
