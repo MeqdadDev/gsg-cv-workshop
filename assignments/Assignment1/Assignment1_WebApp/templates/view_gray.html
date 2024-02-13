@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .upload-btn {
+            padding: 10px 15px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .upload-btn:hover {
+            background-color: #005f6b;
+        }
+    </style>
+</head>
+<body>
+    <h2>Show Image Processing Results</h2>
+
+    <a class="upload-btn" style="display: none;" href="/gray_scale">
+        Resized Gray Scale (512x512)</a>
+
+    <!-- <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" style="display: none;" onchange="readURL(this);">
+        <label for="file" class="upload-btn">Choose File</label>
+        <br><br>
+        <img id="preview" src="#" alt="Uploaded Image" style="display: none; max-width: 300px; margin-top: 20px;">
+        <br><br>
+        <input type="submit" value="Upload" class="upload-btn" style="display: none;">
+    </form> -->
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('preview').style.display = 'inline';
+                    document.getElementById('preview').src = e.target.result;
+                    document.querySelector('input[type="submit"]').style.display = 'inline';
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+</body>
+</html>
