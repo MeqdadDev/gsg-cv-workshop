@@ -1,1 +1,0 @@
-Uploaded images are stored in this dir.
