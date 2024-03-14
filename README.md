@@ -8,9 +8,10 @@ My solutions for the tasks for technical assessment in Python proficiency in the
 ### [Assignment 1](/assignments/Assignment1/)
 Reading, Resizing, Converting, Convolving.
 
-
 ### [Assignment 2](/assignments/Assignment2/)
 Edge Detection, Morphological Operations, Color Segmentation, Feature Extraction
 
 ### [Assignment 3](/assignments/Assignment3/)
 Feature Matching, Image Stitching, Depth, Live Object Detection using YOLO.
+
+### [Final Project](/final_project/)
