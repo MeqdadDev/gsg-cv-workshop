@@ -48,3 +48,89 @@ The application will provide an interactive interface for users to adjust parame
 
 **Scalability**: The design should accommodate future enhancements, such as the addition of new edge detection algorithms or support for larger image sets.
 
+----
+## Screenshots for the Project (PixCraft)
+
+### Welcome Screen
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/1.png" width="80%" hight="80%" >
+</picture>
+</p>
+
+### Selecting Images from PC
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/2.png" width="80%" hight="80%" >
+</picture>
+</p>
+
+### Generate Stitched Image with Available Operations
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/3.png" width="80%" hight="80%" >
+</picture>
+</p>
+
+### Canny Edge Detection
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/4.png" width="80%" hight="80%" >
+</picture>
+</p>
+
+### DoG with Morphological Operation and Kernel Slider
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/5.png" width="40%" hight="40%" >
+</picture>
+</p>
+
+### DoG Edge Detection
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/6.png" width="80%" hight="80%" >
+</picture>
+</p>
+
+### HSV Color Model
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/7.png" width="80%" hight="80%" >
+</picture>
+</p>
+
+### Human Detection using YOLO v8.1
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/8.png" width="80%" hight="80%" >
+</picture>
+</p>
+
+### Warning, Error and Informational Messages
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/9.png" width="40%" hight="40%" >
+</picture>
+</p>
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/10.png" width="40%" hight="40%" >
+</picture>
+</p>
+
+<p align="center">
+<picture>
+  <img alt="PixCraft Screenshot" src="screenshots/11.png" width="40%" hight="40%" >
+</picture>
+</p>
