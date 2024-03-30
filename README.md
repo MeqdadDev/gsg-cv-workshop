@@ -9,9 +9,16 @@ My solutions for the tasks for technical assessment in Python proficiency in the
 Reading, Resizing, Converting, Convolving.
 
 ### [Assignment 2](/assignments/Assignment2/)
-Edge Detection, Morphological Operations, Color Segmentation, Feature Extraction
+Edge Detection, Morphological Operations, Color Segmentation, Feature Extraction.
 
 ### [Assignment 3](/assignments/Assignment3/)
 Feature Matching, Image Stitching, Depth, Live Object Detection using YOLO.
 
 ### [Final Project](/final_project/)
+PixCraft... A desktop application using Tkinter (Image Stitching, Edge Detection, HSV, Human Detection using YOLO).
+
+---
+
+Happy Learning,
+
+By **_Meqdad_**
